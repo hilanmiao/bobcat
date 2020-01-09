@@ -46,8 +46,16 @@
 
 <script>
 // import Logo from '~/components/Logo.vue'
+// import axios from 'axios'
 
 export default {
+  // asyncData ({ params }, callback) {
+  //   const serverUrl = process.env.SERVER_URL
+  //   axios.get(`${serverUrl}/api/common/game`)
+  //     .then((res) => {
+  //       callback(null, { banners: res.data.rows })
+  //     })
+  // },
   data () {
     return {
       banners: [],
